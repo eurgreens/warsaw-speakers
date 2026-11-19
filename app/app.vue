@@ -232,9 +232,6 @@ async function share() {
       </div>
       <div class="masthead-inner">
         <h1>Speaker card generator</h1>
-        <p class="lede">
-          Add a photo, a name and a description, then download or share your image.
-        </p>
       </div>
     </header>
 
@@ -353,9 +350,6 @@ async function share() {
             Share…
           </button>
         </div>
-        <p v-if="!photo" class="help">
-          Tip: add a photo before downloading. Without one, the photo area stays dark grey.
-        </p>
       </section>
     </main>
   </div>
